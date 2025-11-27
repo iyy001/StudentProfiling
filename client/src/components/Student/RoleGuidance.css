@@ -1,0 +1,260 @@
+.role-guidance-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.role-guidance-container h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.role-guidance-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+}
+
+.role-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.role-description {
+  color: #666;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.skill-guidance-section {
+  margin: 30px 0;
+}
+
+.skill-guidance-section h4 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.skill-item {
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.skill-item.matched {
+  border-color: #28a745;
+  background-color: #d4edda;
+}
+
+.skill-item.missing {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+.skill-name {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.skill-status {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.suggested-courses {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.suggested-courses ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.suggested-courses li {
+  margin: 5px 0;
+}
+
+.suggested-courses a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.suggested-courses a:hover {
+  text-decoration: underline;
+}
+
+.feature-contributions-section {
+  margin: 30px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.feature-contributions-section h4 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature-contributions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-contribution {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-name {
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.contribution-bar {
+  flex: 2;
+  height: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contribution-fill {
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.contribution-fill.positive {
+  background-color: #28a745;
+}
+
+.contribution-fill.negative {
+  background-color: #dc3545;
+}
+
+.contribution-value {
+  min-width: 60px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.contribution-value.positive {
+  color: #28a745;
+}
+
+.contribution-value.negative {
+  color: #dc3545;
+}
+
+.courses-section,
+.resources-section {
+  margin: 30px 0;
+}
+
+.courses-section h4,
+.resources-section h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.courses-section ul,
+.resources-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.courses-section li,
+.resources-section li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.courses-section a,
+.resources-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.courses-section a:hover,
+.resources-section a:hover {
+  text-decoration: underline;
+}
+
+.readiness-score {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.readiness-score.high {
+  color: #28a745;
+}
+
+.readiness-score.medium {
+  color: #ffc107;
+}
+
+.readiness-score.low {
+  color: #dc3545;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin: 20px;
+}
+

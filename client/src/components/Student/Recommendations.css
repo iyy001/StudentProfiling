@@ -1,0 +1,141 @@
+.recommendations-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recommendations-container h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recommendation-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #007bff;
+}
+
+.recommendation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.recommendation-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.recommendation-description {
+  color: #666;
+  margin: 10px 0;
+}
+
+.explanation {
+  color: #666;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.skills-section {
+  margin: 15px 0;
+}
+
+.skills-section h4 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.skill-badge.matched {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.skill-badge.missing {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.readiness-score {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.readiness-score.high {
+  color: #28a745;
+}
+
+.readiness-score.medium {
+  color: #ffc107;
+}
+
+.readiness-score.low {
+  color: #dc3545;
+}
+
+.recommendation-footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+

@@ -1,0 +1,50 @@
+.student-detail-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.detail-section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-section:last-child {
+  border-bottom: none;
+}
+
+.detail-section h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.detail-grid div {
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.readiness-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.readiness-details {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.readiness-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
