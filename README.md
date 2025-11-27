@@ -1,3 +1,4 @@
+
 # Maatram Student Profiling System
 
 An AI-powered platform for student career guidance and profiling that helps students identify ideal career paths and provides administrators with data-driven insights.
@@ -272,4 +273,5 @@ Maatram Foundation
 ## Support
 
 For issues and questions, please contact the development team.
+
 
