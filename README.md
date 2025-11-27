@@ -43,7 +43,7 @@ An AI-powered platform for student career guidance and profiling that helps stud
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/iyy001/StudentProfiling.git
 cd Maatram
 ```
 
@@ -80,8 +80,8 @@ cp .env.example .env
 Update the `.env` file with your configuration:
 
 ```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/maatram
+PORT=PORT_NUMBER
+MONGODB_URI=URL
 JWT_SECRET=your_secret_key_here
 ML_SERVICE_URL=http://localhost:5001
 ```
